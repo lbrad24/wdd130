@@ -1,0 +1,79 @@
+:root {
+    --heading-font: Verdana;
+    --paragraph-font: Arial;
+
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 14px;
+    background-color: rgb(247, 165, 202);
+}
+header p {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+header p:hover {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+.quote1 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 42%;
+    margin: auto;
+}
+.name {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-emphasis: bold;
+}
+.list1, .list2, .list3, .list4 {
+    color: black;
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: bold;
+    width: 45%;
+    margin: auto;
+    padding: 7px;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+}
+.quote2 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    width: 32%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.footer1 {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    width: 30%;
+    margin: 1px auto;
+}
+.footer2 {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+/* * {
+    border: 2px solid blue;
+}*/
