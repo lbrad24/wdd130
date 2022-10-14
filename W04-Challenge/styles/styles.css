@@ -1,9 +1,3 @@
-:root {
-    --heading-font: Verdana;
-    --paragraph-font: Arial;
-
-}
-
 body {
     max-width: 960px;
     margin: 0 auto;
@@ -15,6 +9,7 @@ header p {
     color: white;
     font-size: 3em;
     text-align: center;
+    font-family: Verdana;
 }
 
 header p:hover {
@@ -28,6 +23,7 @@ header p:hover {
     text-align: center;
     width: 42%;
     margin: auto;
+    font: Arial;
 }
 .name {
     color: white;
@@ -43,6 +39,7 @@ header p:hover {
     width: 45%;
     margin: auto;
     padding: 7px;
+    font-family: Arial;
 }
 
 img {
@@ -58,6 +55,7 @@ img {
     width: 32%;
     margin: 20px auto;
     padding: 10px;
+    font-family: Arial;
 }
 .footer1 {
     color: black;
