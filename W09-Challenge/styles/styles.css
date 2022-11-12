@@ -1,0 +1,97 @@
+body {
+    width:300px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    background-color: black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#border {
+    
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+main {
+    text-align: center;
+    background-color: white;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding: 30px;
+}
+h4 {
+    color: #425D8C;
+}
+h1 {
+    font-weight: bold;
+    margin-top: -30px;
+}
+main p {
+    color: #918C92;
+    margin-bottom: -10px;
+}
+footer {
+    background-color: #425D8C;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.read1 {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-bottom: -15px;
+}
+.views1 {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-bottom: -15px;
+    border-left: 2px gray;
+    border-right: 2px gray;
+}
+.comments1 {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-bottom: -15px;
+}
+.read2 {
+    text-align: center;
+    font-size: .75em;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-bottom: 30px;
+}
+.views2 {
+    text-align: center;
+    font-size: .75em;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-bottom: 30px;
+    border-left: 2px gray;
+    border-right: 2px gray;
+}
+.comments2 {
+    text-align: center;
+    font-size: .75em;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    margin-bottom: 30px;
+}
+/* * {
+    border: 2px solid blue;
+}*/
