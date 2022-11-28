@@ -2,8 +2,12 @@
 body {
     background-color: black;
     font-family: Garamond;
-    font-size: 22px;
 }
+h1 {font-size: 3vw;}
+h2 {font-size: 2vw;}
+h4 {font-size: 1.5vw;}
+p {font-size: 1.5vw;}
+a {font-size: 1.5vw;}
 h2, h4 {
     font-family: Georgia;
 }
@@ -67,7 +71,7 @@ nav a:hover {
 }
 
 /* THIS IS THE SECTION FOR CONTENT OF THE MAIN PAGE OF THE WEBSITE */
-#hero {
+/*#hero {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
@@ -97,7 +101,24 @@ nav a:hover {
 #hero-img {
     width: 100%;
     z-index: 1;
+}*/
+.hero-container {
+    position: relative;
+    max-width: 1600px; /* Maximum width */
+    margin: 5% auto; /* Center it */
 }
+.hero-container .hero-content {
+    position: absolute; /* Position the background text */
+    text-align: center;
+    margin-left: 15%;
+    bottom: 20%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #fffbff; /* Grey text */
+    width: 70%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
 .button-box {
     text-align: center;
     padding-top: 25px;
@@ -106,7 +127,6 @@ nav a:hover {
     background-color: #a33b20;
     color:#f0d039;
     text-decoration: none;
-    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -121,7 +141,7 @@ nav a:hover {
     background-color: #282525;
     color: #fffbff;
     box-shadow: 0px 0px 0px 3px #6f7364;
-    margin: 30px;
+    margin: 30px 30px 30px 30px;
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-template-rows: 1fr;
@@ -139,9 +159,10 @@ nav a:hover {
 }
 .attribute-grid {
     height: 140px;
-    background-color: #a33b20;
     margin: 30px;
-    margin-top: -200px;
+    background-color: #a33b20;
+    box-shadow: 0px 0px 0px 3px #6f7364;
+    margin-top: -70px;
     padding: 15px;
 }
 
@@ -182,9 +203,7 @@ footer a {
 footer a:hover {
     color: white;
 }
-footer p {
-    font-size: 1.2em;
-}  
+
 footer p a:hover {
     text-decoration: underline;
 }    
