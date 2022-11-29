@@ -312,8 +312,89 @@ footer .social img {
     margin: 30px;
 }
 /* THIS IS THE SECTION FOR CONTENT OF THE "BEGINNING" WEBPAGE */
+.inn-box {
+    background-color: #282525;
+    color: #fffbff;
+    box-shadow: 0px 0px 0px 3px #6f7364;
+    margin: 30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.inn-img {
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px -10px 10px 10px;
+    border-radius: 5px;
+}
+.inn-text {
+    grid-column: 2/3;
+    margin: 30px;
+}
 
+.house-box {
+    background-color: #282525;
+    color: #fffbff;
+    box-shadow: 0px 0px 0px 3px #6f7364;
+    margin: 30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+.house-img {
+    width: 300px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10px 10px 10px -10px;
+    border-radius: 5px;
+}
+.house-text {
+    grid-column: 1/2;
+    margin: 30px;
+}
 
+.basement-box {
+    background-color: #282525;
+    color: #fffbff;
+    box-shadow: 0px 0px 0px 3px #6f7364;
+    margin: 30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.basement-img {
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px -10px 10px 10px;
+    border-radius: 5px;
+}
+.basement-text {
+    grid-column: 2/3;
+    margin: 30px;
+}
+
+.wolves-box {
+    background-color: #282525;
+    color: #fffbff;
+    box-shadow: 0px 0px 0px 3px #6f7364;
+    margin: 30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+.wolves-img {
+    width: 300px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10px 10px 10px -10px;
+    border-radius: 5px;
+}
+.wolves-text {
+    grid-column: 1/2;
+    margin: 30px;
+}
 
 
 /* THIS IS FOR SMALL DEVICES */
